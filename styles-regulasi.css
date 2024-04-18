@@ -1,0 +1,103 @@
+body {
+    font-size: 20px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.namagame{
+    padding-top: 20px;
+    text-align: center;
+}
+.name-logo{
+    padding-top: 0%;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bawahtugas {
+    background: rgba(0, 0, 0, .5);
+    width: 90%;
+    padding: 30px;
+    border: 2px solid rgb(36, 36, 39);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 20px;
+}
+
+.li-harga {
+    margin: 10px;
+    list-style-type: none;
+    color: #fff;
+}
+
+.li-biaya,
+.li-peraturan,
+.li-sistematikalomba,
+.li-hadiah {
+    font-weight: bold;
+    color: #fff;
+}
+
+.li-umum {
+    margin: 15px;
+    color: #fff;
+}
+
+.ol-umum,
+.ol-pemain,
+.ol-tim,
+.ol-peraturanpermainan,
+.ol-sistempertandingan {
+    margin: 20px;
+    color: #fff;
+}
+
+.li-sistempertandingan {
+    margin: 15px;
+    color: #fff;
+}
+
+.ol-hadiah {
+    margin: 20px;
+    color: #fff;
+}
+
+.kontak {
+    text-align: center;
+    color: #fff;
+}
+button{
+    margin: 2;
+    font-family: inherit;
+}
+.btn{
+    justify-content: center;
+    text-align: center;
+}
+.btn-regis {
+     font-family: "kanit", medium-500;
+    width: 70%;
+    height: 50px;
+    padding: 5px 0;
+    border: none;
+    background-color: #e33505;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.btn-regis:hover {
+    background-color: #e55f3a;
+}
+.btn .btn-regis a{
+    text-decoration: none;
+    border: none;
+}

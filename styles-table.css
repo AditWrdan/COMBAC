@@ -1,0 +1,53 @@
+
+table {
+    border-collapse: collapse;
+    border-spacing: 15px 0px;
+    font-size: 10pt;
+    border: 1px solid;
+    width: 100%;
+    overflow-x:auto ;
+   
+}
+
+td {
+    text-align: center;
+    padding: 3px;
+    height: 25px;
+    width: 100px;
+}
+
+th {
+    background-color: steelblue;
+    text-align: center;
+    color: white;
+    height: 40px;
+}
+
+.btn-hapus {
+    box-shadow: none;
+    color: #fff;
+    background-color:#db5d59 ;
+    text-decoration: unset;
+    margin-right: 10px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 30px;
+}
+.btn-hapus:hover{
+    box-shadow: none;
+    background-color: #dd736f;
+}
+.btn-ubah{
+    box-shadow: none;
+    color: #fff;
+    background-color:#3b93f7 ;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 30px;
+}
+.btn-ubah:hover{
+    box-shadow: none;
+    background-color: #5ca2f3;
+}
